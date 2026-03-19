@@ -1,0 +1,33 @@
+.ticker {
+  background: var(--accent);
+  color: var(--accent2);
+  padding: 0.7rem 0;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+}
+
+.inner {
+  display: inline-block;
+  animation: ticker 22s linear infinite;
+}
+
+.inner span {
+  margin-right: 0.25rem;
+}
+
+.sep {
+  margin: 0 1.5rem;
+  opacity: 0.5;
+}
+
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
