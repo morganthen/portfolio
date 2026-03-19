@@ -11,6 +11,7 @@ const PROJECTS = [
     tagline: "Invoicing web app",
     url: "https://remit-next.vercel.app",
     urlLabel: "remit-next.vercel.app",
+    githubUrl: "https://github.com/morganthen/remit-next",
     screenshot: "/screenshots/remit-v3.png",
     screenshotAlt: "Remit — simple invoicing solution",
     imagePosition: "top",
@@ -35,6 +36,7 @@ const PROJECTS = [
     tagline: "AI-prioritised task manager",
     url: "https://decisiv-delta.vercel.app",
     urlLabel: "decisiv-delta.vercel.app",
+    githubUrl: "https://github.com/morganthen/decisiv",
     screenshot: "/screenshots/decisiv-v2.png",
     screenshotAlt: "Decisiv — AI prioritisation view",
     imagePosition: "top",
@@ -58,7 +60,8 @@ const PROJECTS = [
     name: "Portfolio Website",
     tagline: "This site",
     url: "https://morganthen.vercel.app",
-    urlLabel: "morganthen.vercel.app",
+    githubUrl: "https://github.com/morganthen/portfolio",
+    urlLabel: "morganthen-portfolio.vercel.app",
     screenshot: "/screenshots/portfolio-v3.png",
     screenshotAlt: "Portfolio website",
     imagePosition: "top",
@@ -135,13 +138,21 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                <a
+                {/* <a
                   href={project.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.link}
                 >
                   {project.urlLabel}
+                </a> */}
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.link}
+                >
+                  GITHUB REPO
                 </a>
               </div>
             </div>
