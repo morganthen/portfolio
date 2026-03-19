@@ -28,6 +28,16 @@ export const metadata: Metadata = {
   title: "Morgan Then — Full-Stack Developer",
   description:
     "Full-stack developer based in Perth, WA. TypeScript, Next.js, React, Supabase. Three live projects and a genuine love for building things that work.",
+  openGraph: {
+    images: [
+      {
+        url: "/screenshots/portfolio-v3.png",
+        width: 1200,
+        height: 630,
+        alt: "Screenshot of Morgan Then's portfolio",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

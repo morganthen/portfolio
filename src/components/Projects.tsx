@@ -96,7 +96,7 @@ export default function Projects() {
                     alt={project.screenshotAlt ?? ""}
                     fill
                     className={styles.screenshot}
-                    style={{ objectPosition: project.imagePosition }}
+                    // style={{ objectPosition: project.imagePosition }}
                     quality={90}
                     sizes="(max-width: 768px) 100vw, 40vw"
                   />

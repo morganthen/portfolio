@@ -298,6 +298,10 @@
     width: 100%;
   }
 
+  .screenshot {
+    object-position: top; /* or adjust to left, right, bottom, etc. */
+  }
+
   .textCol {
     padding: 1.75rem 1.5rem;
     gap: 1.25rem;
@@ -305,5 +309,25 @@
 
   .name {
     font-size: 1.9rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1084px) {
+  .screenshotCol {
+    height: 600px;
+    margin-top: 4rem;
+  }
+  .screenshot {
+    object-position: left; /* or adjust to left, right, bottom, etc. */
+  }
+}
+
+@media (min-width: 1085px) {
+  .screenshotCol {
+    height: 400px;
+    margin-top: 4rem;
+  }
+  .screenshot {
+    object-position: top; /* or adjust to left, right, bottom, etc. */
   }
 }

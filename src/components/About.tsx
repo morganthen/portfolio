@@ -6,6 +6,21 @@ import styles from "./About.module.css";
 const ACCOLADES = [
   {
     icon: "◆",
+    title: "Bachelor of Commerce — UWA",
+    body: "Triple major: Managerial Accounting, Finance & Business Economics",
+  },
+  {
+    icon: "◆",
+    title: "freeCodeCamp",
+    body: "Responsive Web Design + JS Algorithms & Data Structures, Full-Stack Bootcamp — 2025",
+  },
+  {
+    icon: "◆",
+    title: "App Brewery",
+    body: "Full-Stack Bootcamp — 2025",
+  },
+  {
+    icon: "◆",
     title: "2 x ARIA Award",
     body: "Producer on Daniel Johns (Silverchair) 'FutureNever' album. Highest selling Australian album of 2022",
   },
@@ -16,23 +31,13 @@ const ACCOLADES = [
   },
   {
     icon: "◆",
-    title: "3× WA Music Award · 2× National Live Music Award",
-    body: "Best Independent Album — AIR Awards 2018",
+    title: "3× Western Australia Music Award",
+    body: "Best Independent Album",
   },
   {
     icon: "◆",
-    title: "Bachelor of Commerce — UWA",
-    body: "Triple major: Managerial Accounting, Finance & Business Economics",
-  },
-  {
-    icon: "◆",
-    title: "freeCodeCamp",
-    body: "Responsive Web Design and JS Algorithms & Data Structures, Full-Stack Bootcamp — 2025",
-  },
-  {
-    icon: "◆",
-    title: "App Brewery",
-    body: "Full-Stack Bootcamp — 2025",
+    title: "2× National Live Music Award",
+    body: "AIR Awards 2018",
   },
 ];
 
