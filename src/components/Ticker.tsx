@@ -9,7 +9,6 @@ const ITEMS = [
   "Tailwind CSS",
   "shadcn/ui",
   "Vercel",
-  "Python",
   "AI Integration",
   "Git / GitHub",
   "Zod",
