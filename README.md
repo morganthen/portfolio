@@ -55,7 +55,9 @@ ARIA Award winner (Daniel Johns' _FutureNever_), 3× Gold-certified records, AIR
 University of Western Australia, 2010–2013
 
 **TypeScript Certification** — Codecademy, 2026
+
 **The Complete Full-Stack Web Development Bootcamp** — App Brewery, 2025
+
 **Responsive Web Design & JS Algorithms and Data Structures** — freeCodeCamp, 2025
 
 ---
