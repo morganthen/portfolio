@@ -2,7 +2,7 @@
 
 Perth, WA · morganthen@me.com · +61 425 448 778 · [GitHub](https://github.com/morganthen) · [LinkedIn](https://linkedin.com/in/morganthen)
 
-I came to development through an unconventional path — commerce and music — and I think that shows in how I approach problems. Both fields are fundamentally about systems, deadlines, and delivering something that works for other people. I've been building seriously for just over a year, have two full-stack projects live in production, and I'm looking for a team where I can keep growing quickly.
+I came to development through an unconventional path of commerce and music and I think that shows in how I approach problems. Both fields are fundamentally about systems, deadlines, and delivering something that works for other people. I've been building seriously for just over a year, have two full-stack projects live in production, and I'm looking for a team where I can keep growing quickly.
 
 **Live portfolio:** https://morganthen.vercel.app
 
@@ -21,7 +21,7 @@ I came to development through an unconventional path — commerce and music — 
 
 ## 🗂️ Projects
 
-### Remit — Freelance Invoicing Tool · [Live](https://remit-next.vercel.app) · [Repo](https://github.com/morganthen/remit)
+### Remit — Freelance Invoicing Tool · [Live](https://remit-next.vercel.app) · [Repo](https://github.com/morganthen/remit-next)
 
 > "I was tired of paying for QuickBooks subscriptions, so I built my own."
 
@@ -31,9 +31,9 @@ Full-stack invoicing dashboard I built for — and actively use in — my own fr
 
 ---
 
-### Decisiv — AI-Prioritised Task Manager · [Live](https://decisiv-delta.vercel.app) · [Repo](https://github.com/morganthen/decisiv)
+### decisiv — AI-Prioritised Task Manager · [Live](https://decisiv-delta.vercel.app) · [Repo](https://github.com/morganthen/decisiv)
 
-To-do app that uses Meta's Llama 4 Maverick (17B) model to score and rank tasks by priority. AI calls run server-side via Next.js Server Actions. The core challenge was prompt engineering the model to return a reliable structured JSON object — getting the output shape consistent took real iteration. Users can add personal context so rankings reflect their actual situation.
+To-do app that uses Meta's Llama 4 Maverick (17B) model to score and rank tasks by priority. AI calls run server-side via Next.js Server Actions. The core challenge was prompt engineering the model to return a reliable structured JSON object. Getting the output shape consistent took real iteration. Users can add personal context so rankings reflect their actual situation.
 
 `Next.js` `TypeScript` `Supabase` `LLM API (DeepInfra)` `Server Actions` `shadcn/ui`
 
