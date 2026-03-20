@@ -15,10 +15,10 @@ export default function Hero() {
 
       <div className={styles.right}>
         <p className={styles.bio}>
-          I came to development through an unconventional path — and I think
-          that shows in how I approach problems. Commerce graduate, ARIA-awarded
-          music producer, and now a full-stack developer with two live projects
-          and a genuine love for building things that work.
+          I came to development through an unconventional path and I think that
+          shows in how I approach problems. Commerce graduate, ARIA-awarded
+          music producer, and now a full-stack developer with three live
+          projects and a genuine love for building things that work.
         </p>
         <div className={styles.ctaRow}>
           <Link href="#projects" className={styles.btnPrimary}>

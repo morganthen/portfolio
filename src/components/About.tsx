@@ -53,10 +53,10 @@ export default function About() {
             Built to <em>figure it out</em>
           </h2>
           <p className={`${styles.text} reveal reveal-delay-1`}>
-            I came to development after a decade producing and touring
-            internationally. Over the years, I&apos;ve learned how to manage
-            complex projects, meet tight deadlines, and communicate clearly with
-            non-technical stakeholders.
+            I came to development after a decade music production, audio
+            engineering and touring internationally. Over the years, I&apos;ve
+            learned how to manage complex projects, meet tight deadlines, and
+            communicate clearly with non-technical stakeholders.
           </p>
           <p className={`${styles.text} reveal reveal-delay-2`}>
             I hold a triple major Bachelor of Commerce from the University of

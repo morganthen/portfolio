@@ -23,12 +23,7 @@ const SKILLS = [
   },
   {
     category: "Tooling & Deployment",
-    items: [
-      "Git · GitHub",
-      "Vercel (CI/CD)",
-      "Zod · React Hook Form",
-      "VS Code",
-    ],
+    items: ["Git · GitHub", "Vercel (CI/CD)", "Zod · React Hook Form"],
   },
 ];
 
