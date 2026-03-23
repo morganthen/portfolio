@@ -12,7 +12,7 @@ const ACCOLADES = [
   {
     icon: "◆",
     title: "freeCodeCamp",
-    body: "Responsive Web Design + JS Algorithms & Data Structures, Full-Stack Bootcamp — 2025",
+    body: "Responsive Web Design + JS Algorithms & Data Structures — 2025",
   },
   {
     icon: "◆",
@@ -59,11 +59,12 @@ export default function About() {
             communicate clearly with non-technical stakeholders.
           </p>
           <p className={`${styles.text} reveal reveal-delay-2`}>
-            I hold a triple major Bachelor of Commerce from the University of
-            Western Australia in Managerial Accounting, Finance and Business
-            Economics. I approach code the same way I approached music and
-            finance: understand the system, know what it&apos;s trying to do,
-            then build something that actually works for the people using it.
+            I am fluent in English and Mandarin and I hold a triple major
+            Bachelor of Commerce from the University of Western Australia in
+            Managerial Accounting, Finance and Business Economics. I approach
+            code the same way I approached music and finance: understand the
+            system, know what it&apos;s trying to do, then build something that
+            actually works for the people using it.
           </p>
           <p className={`${styles.text} reveal reveal-delay-3`}>
             I&apos;ve been building seriously for just over a year and have
