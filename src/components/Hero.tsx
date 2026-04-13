@@ -18,7 +18,7 @@ export default function Hero() {
           I came to development through an unconventional path and I think that
           shows in how I approach problems. Commerce graduate, ARIA-awarded
           music producer, and now a full-stack developer with three live
-          projects and a genuine love for building things that work.
+          projects and a genuine love for building things.
         </p>
         <div className={styles.ctaRow}>
           <Link href="#projects" className={styles.btnPrimary}>
