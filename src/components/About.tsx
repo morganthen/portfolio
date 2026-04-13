@@ -59,9 +59,9 @@ export default function About() {
             communicate clearly with non-technical stakeholders.
           </p>
           <p className={`${styles.text} reveal reveal-delay-2`}>
-            I am fluent in English, Mandarin (and it's various dialects) and
-            Bahasa Malaysia and I hold a triple major Bachelor of Commerce from
-            the University of Western Australia in Managerial Accounting,
+            I am fluent in English, Mandarin (and it&apos;s various dialects)
+            and Bahasa Malaysia and I hold a triple major Bachelor of Commerce
+            from the University of Western Australia in Managerial Accounting,
             Finance and Business Economics. I approach code the same way I
             approached music and finance: understand the system, know what
             it&apos;s trying to do, then build something that actually works for

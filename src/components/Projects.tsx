@@ -42,7 +42,7 @@ const PROJECTS = [
     imagePosition: "top",
     bullets: [
       "Next.js, TypeScript, Supabase, shadcn/ui with dark/light mode. Integrates Meta's Llama 4 Maverick via a third-party LLM API — calls run server-side through Server Actions to keep credentials off the client. Prompt-engineered the model to return structured JSON scoring each task; parsing and rendering that reliably was the core technical challenge.",
-      "Built-in Pomodoro timer using useEffect and setInterval — learned first-hand why the cleanup function and dependency array matter when managing a ticking interval without stale closures or memory leaks. Deep work duration is tracked and persisted per session, with the data layer already in place for a future focus stats section.",
+      "Built-in Pomodoro timer using useEffect and setInterval. Learned first-hand why the cleanup function and dependency array matter when managing a ticking interval without stale closures or memory leaks. Deep work duration is tracked and persisted per session, with the data layer already in place for a future focus stats section.",
       "Users add personal context in a settings page so the model ranks tasks relative to their actual situation. Includes full account deletion and auth lifecycle management via Supabase.",
     ],
     tags: [
@@ -58,20 +58,28 @@ const PROJECTS = [
   },
   {
     number: "03 / 03",
-    name: "Portfolio Website",
-    tagline: "This site",
-    url: "https://morganthen.vercel.app",
-    githubUrl: "https://github.com/morganthen/portfolio",
-    urlLabel: "morganthen-portfolio.vercel.app",
-    screenshot: "/screenshots/portfolio-v3.png",
-    screenshotAlt: "Portfolio website",
+    name: "Droptop",
+    tagline: "Bookmark manager",
+    url: "https://droptop-next.vercel.app",
+    urlLabel: "droptop-next.vercel.app",
+    githubUrl: "https://github.com/morganthen/droptop-next",
+    screenshot: "/screenshots/droptop.png", // update filename to match yours
+    screenshotAlt: "Droptop — bookmark manager",
     imagePosition: "top",
     bullets: [
-      "Designed and built in vanilla HTML/CSS first to nail the layout and typography, then deliberately re-implemented in Next.js and TypeScript — treating the conversion itself as a learning exercise in component architecture and the App Router.",
-      "Styled with CSS Modules and CSS custom properties throughout. Made the conscious choice to work without a utility framework to deepen understanding of the cascade, scoping, and design tokens at the CSS level.",
-      "Deployed on Vercel with automatic CI/CD via GitHub; includes next/font for zero-layout-shift font loading and Open Graph metadata for clean link previews when shared.",
+      "Built twice on purpose. V1 used Node.js and Express with MongoDB and a separate Vite frontend — the full split-repo setup, CORS config and all. V2 is the same app rebuilt in Next.js with PostgreSQL and Prisma. Doing it the long way first meant Next.js API routes stopped feeling like magic and started making sense as a layer over the same request/response pattern.",
+      "Automatically fetches page title, description and cover image via Open Graph scraping on URL blur — the same mechanic Pinterest uses when you save a pin. Database is PostgreSQL managed directly through Prisma 7, which has significant breaking changes from v6: the connection URL moved to a separate prisma.config.ts file and a new driver adapter is required. Most online tutorials were written for v6, so the official docs did the heavy lifting.",
+      "Auth is JWT and bcrypt, rolled by hand. Having implemented it in Express first, doing it again in Next.js was about reinforcing the mental model rather than learning something new. The main difference is exporting named GET/POST/DELETE functions that return Response objects instead of calling res.send().",
     ],
-    tags: ["Next.js", "TypeScript", "CSS Modules", "next/font", "Vercel"],
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "JWT",
+      "Open Graph",
+      "Tailwind",
+    ],
   },
 ];
 
