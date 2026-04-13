@@ -19,11 +19,22 @@ const SKILLS = [
   },
   {
     category: "Backend & Data",
-    items: ["Supabase", "PostgreSQL · Raw SQL", "Supabase Auth"],
+    items: [
+      "Supabase",
+      "MongoDB",
+      "PostgreSQL · Raw SQL",
+      "Supabase Auth",
+      "Node.js · Express",
+    ],
   },
   {
     category: "Tooling & Deployment",
-    items: ["Git · GitHub", "Vercel (CI/CD)", "Zod · React Hook Form"],
+    items: [
+      "Git · GitHub",
+      "Vercel (CI/CD)",
+      "Zod · React Hook Form",
+      "Prisma ORM",
+    ],
   },
 ];
 
