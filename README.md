@@ -66,4 +66,4 @@ University of Western Australia, 2010–2013
 
 Open to junior and internship opportunities in full-stack web development.
 
-morganthen@me.com · [github.com/morganthen](https://github.com/morganthen) · [linkedin.com/in/morganthen](https://linkedin.com/in/morganthen)
+[github.com/morganthen](https://github.com/morganthen) · [linkedin.com/in/morganthen](https://linkedin.com/in/morganthen)
