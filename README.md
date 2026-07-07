@@ -1,6 +1,6 @@
 # Morgan Then — Full-Stack Developer
 
-Perth, WA · morganthen@me.com · +61 425 448 778 · [GitHub](https://github.com/morganthen) · [LinkedIn](https://linkedin.com/in/morganthen)
+Perth, WA · [GitHub](https://github.com/morganthen) · [LinkedIn](https://linkedin.com/in/morganthen)
 
 I came to development through an unconventional path of commerce and music and I think that shows in how I approach problems. Both fields are fundamentally about systems, deadlines, and delivering something that works for other people. I've been building seriously for just over a year, have two full-stack projects live in production, and I'm looking for a team where I can keep growing quickly.
 
